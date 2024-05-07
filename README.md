@@ -1,7 +1,7 @@
 # ProjetoMobile
-**Esther Pessanha
-*Guilherme Bastos
-Luahn Kaye
-Joao Pedro Benzamat
-Matheus Liporace
-Rafael Meres
+Esther Pessanha<br>
+Guilherme Bastos<br>
+Luahn Kaye<br>
+Joao Pedro Benzamat<br>
+Matheus Liporace<br>
+Rafael Meres<br>
