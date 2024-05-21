@@ -1,11 +1,11 @@
-package com.example.helloworld
+package com.example.projetotalento
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class tela_carregamento : AppCompatActivity() {
+class EscolherJornada : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tela_carregamento)
+        setContentView(R.layout.activity_escolher_jornada)
     }
 }

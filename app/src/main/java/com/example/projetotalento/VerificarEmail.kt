@@ -1,11 +1,11 @@
-package com.example.helloworld
+package com.example.projetotalento
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class tela_verificar_email : AppCompatActivity() {
+class VerificarEmail : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tela_verificar_email)
+        setContentView(R.layout.activity_verificar_email)
     }
 }

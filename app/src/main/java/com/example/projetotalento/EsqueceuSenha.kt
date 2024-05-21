@@ -1,11 +1,11 @@
-package com.example.helloworld
+package com.example.projetotalento
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class tela_jornadas : AppCompatActivity() {
+class EsqueceuSenha : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tela_jornadas)
+        setContentView(R.layout.activity_esqueceu_senha)
     }
 }

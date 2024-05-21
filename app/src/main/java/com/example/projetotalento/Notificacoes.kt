@@ -1,11 +1,11 @@
-package com.example.helloworld
+package com.example.projetotalento
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class tela_ajuda : AppCompatActivity() {
+class notificaçoes : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tela_ajuda)
+        setContentView(R.layout.activity_notificacoes)
     }
 }
