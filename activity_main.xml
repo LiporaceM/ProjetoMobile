@@ -14,7 +14,7 @@
         android:background="#E76F51"
         android:gravity="center"
         android:text="PERFIL"
-        android:textColor="#E9C46A"
+        android:textColor="#000000"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,17 +49,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.306" />
 
-    <com.google.android.material.bottomappbar.BottomAppBar
-        android:id="@+id/bottomAppBar"
-        android:layout_width="521dp"
-        android:layout_height="75dp"
-        android:layout_gravity="bottom"
-        android:background="#E76F51"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:ignore="BottomAppBar"
-        tools:layout_editor_absoluteX="-17dp" />
+
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -119,14 +109,18 @@
     <Button
         android:id="@+id/button"
         android:layout_width="60dp"
-        android:layout_height="43dp"
+        android:layout_height="60dp"
         android:background="#FA914D"
+        android:text="Clique Aqui"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.896"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.12" />
+        app:layout_constraintVertical_bias="0.12"
+        android:textColor="#000000"
+        />
+
 
     <TextView
         android:id="@+id/textView11"
