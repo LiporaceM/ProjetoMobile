@@ -4,32 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FA914D">
+    android:background="#FA914D"
+    android:backgroundTint="#FA914D">
 
-    <TextView
+    <Button
         android:id="@+id/termosTextV"
-        android:layout_width="400dp"
-        android:layout_height="50dp"
-        android:background="#FA914D"
+        android:layout_width="445dp"
+        android:layout_height="66dp"
+        android:backgroundTint="#FA914D"
         android:gravity="center"
         android:text="Ao entrar na Diversa In, você concorda com nossos Termos e Política de Privacidade"
         android:textColor="#F4EDE5"
-        android:textSize="15dp"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.992"
-        tools:textColorHighlight="#264653" />
+        app:layout_constraintVertical_bias="0.992" />
 
-    <EditText
-        android:id="@+id/entrarText"
+    <Button
+        android:id="@+id/entrarButton"
         android:layout_width="287dp"
         android:layout_height="58dp"
-        android:background="@drawable/curved_edittext_background"
+        android:backgroundTint="#FFFFFF"
         android:gravity="center"
-        android:text="Entrar"
+        android:hint="Entrar"
         android:textColor="#264653"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,28 +38,30 @@
         app:layout_constraintVertical_bias="0.658" />
 
     <EditText
-        android:id="@+id/senhaTextE"
+        android:id="@+id/editTextTextPassword"
         android:layout_width="287dp"
-        android:layout_height="58dp"
+        android:layout_height="60dp"
         android:background="@drawable/curved_edittext_background"
+        android:ems="10"
         android:gravity="center_vertical"
-        android:text="    Senha"
+        android:hint="  Senha"
+        android:inputType="textPassword"
         android:textColor="#264653"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.41" />
+        app:layout_constraintVertical_bias="0.421" />
 
-    <TextView
-        android:id="@+id/esqueciTextV"
+    <Button
+        android:id="@+id/esqueciButton"
         android:layout_width="211dp"
         android:layout_height="50dp"
-        android:background="#FA914D"
+        android:backgroundTint="#FA914D"
         android:gravity="center"
         android:text="Esqueci a senha"
         android:textColor="#E9C46A"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
@@ -73,13 +75,13 @@
         android:layout_height="58dp"
         android:background="@drawable/curved_edittext_background"
         android:gravity="center_vertical"
-        android:text="    Usuário ou e-mail"
+        android:hint="  Usuário ou e-mail"
         android:textColor="#264653"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.294" />
+        app:layout_constraintVertical_bias="0.297" />
 
     <TextView
         android:id="@+id/LOGIN"
@@ -89,7 +91,8 @@
         android:gravity="center"
         android:text="LOGIN"
         android:textColor="#F4EDE5"
-        android:textSize="32dp"
+        android:textSize="32sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

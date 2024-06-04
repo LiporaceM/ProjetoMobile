@@ -21,6 +21,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login" />
+
+        <activity android:name=".EsqueceuSenha" />
+
+        <activity android:name=".EscolherJornada" />
+
     </application>
 
 </manifest>

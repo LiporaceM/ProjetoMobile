@@ -38,24 +38,12 @@
         app:layout_constraintVertical_bias="0.423"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="400dp"
-        android:layout_height="50dp"
-        android:gravity="center"
-        android:text="Ao entrar na Diversa In, você concorda com nossos Termos e Política de Privacidade"
-        android:textColor="#F4EDE5"
-        android:textSize="15dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="707dp" />
-
     <EditText
         android:id="@+id/editText"
         android:layout_width="333dp"
         android:layout_height="51dp"
         android:background="@drawable/curved_edittext_background"
-        android:backgroundTint="#F4EDE5"
+        android:backgroundTint="#FFFFFF"
         android:gravity="center_vertical"
         android:text="   E-mail"
         android:textSize="20sp"
@@ -63,24 +51,39 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.592"
+        app:layout_constraintVertical_bias="0.591"
         app:layout_editor_absoluteX="56dp"
         app:layout_editor_absoluteY="464dp"
         tools:ignore="MissingConstraints" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
-        android:layout_width="55dp"
-        android:layout_height="47dp"
-        android:clickable="true"
-        android:contentDescription="TODO"
-        android:visibility="visible"
-        app:backgroundTint="#F4EDE5"
-        app:srcCompat="@drawable/seta_direita"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="307dp"
-        tools:layout_editor_absoluteY="457dp"
-        tools:srcCompat="@drawable/seta_direita"
-        tools:visibility="visible" />
+    <Button
+        android:id="@+id/termosTextV"
+        android:layout_width="445dp"
+        android:layout_height="66dp"
+        android:backgroundTint="#FA914D"
+        android:gravity="center"
+        android:text="Ao entrar na Diversa In, você concorda com nossos Termos e Política de Privacidade"
+        android:textColor="#F4EDE5"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.992" />
+
+    <Button
+        android:id="@+id/enviarButton"
+        android:layout_width="130dp"
+        android:layout_height="44dp"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="center"
+        android:hint="Enviar"
+        android:textColor="#264653"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.083" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
