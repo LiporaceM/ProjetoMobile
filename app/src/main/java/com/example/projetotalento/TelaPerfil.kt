@@ -8,6 +8,6 @@ import androidx.core.view.WindowInsetsCompat
 class TelaPerfil : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_tela_perfil)
     }
 }
