@@ -12,7 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetoTalento"
         tools:targetApi="31">
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,10 +22,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login" />
-
         <activity android:name=".EsqueceuSenha" />
-
         <activity android:name=".EscolherJornada" />
+        <activity android:name=".Configuracoes" />
+        <activity android:name=".TelaPerfil" />
+        <activity android:name=".Notificacoes" />
+        <activity android:name=".Ajuda" />
+        <activity android:name=".Jornada" />
+        <activity android:name=".Diversikas" />
 
     </application>
 
